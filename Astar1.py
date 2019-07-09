@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 # robot 1
 
 import rospy
@@ -12,7 +11,6 @@ import numpy as np
 map = np.array(None)
 g = None
 id = None
-#go_flag = None
 
 # callback functions for ROS communication
 def map_subscriber(Map):
