@@ -44,7 +44,7 @@ So, I tried using the **[SMOP tool](https://github.com/victorlei/smop)** (small 
 Finally, the interface of the python code with ROS done through embedding the code in the ROS packages based on the [ROS documentation and tutorials](http://wiki.ros.org/ROS/Tutorials) . 
 
 <br/>
-<br/>
+
 ## Testing videos & Documents
 * [Planning algorithm Trails](https://www.youtube.com/playlist?list=PLI5xtxCxW-SdhwnbYTang0ZLDLOudYHI5)
 * [Formation algorithm](https://www.youtube.com/watch?v=l2jWmuI5sps&feature=youtu.be)
