@@ -46,4 +46,4 @@ Finally, the interface of the python code with ROS done through embedding the co
 
 ## Testing videos
 * [Planning algorithm Trails](https://www.youtube.com/playlist?list=PLI5xtxCxW-SdhwnbYTang0ZLDLOudYHI5)
-* [Formation algorithm including the Planning algorithm too Trails](https://www.youtube.com/watch?v=l2jWmuI5sps&feature=youtu.be)
+* [Formation algorithm](https://www.youtube.com/watch?v=l2jWmuI5sps&feature=youtu.be)
