@@ -35,7 +35,8 @@ MATLAB & ROS interface through [Robotics System Toolbox](https://www.mathworks.c
 <br/>
 The development principle illustrated above based on a research paper: [Modified A* algorithm for safer mobile robot navigation](https://www.researchgate.net/publication/258105430_Modified_A_algorithm_for_safer_mobile_robot_navigation)
 <br/>
-Then i used **MATLAB Coder** to transfer the MATLAB version of the algorithm into c++ code but it was failing in parts of the code. <br/>
+<br/>
+Then i used **MATLAB Coder** to transfer the MATLAB version of the algorithm into c++ code but it was failing in parts of the code.
 I used the **[SMOP tool](https://github.com/victorlei/smop)** (small MATLAB to octave or python tool) on Ubuntu 16.04 to transfer the MATLAB version of the algorithm into python code and it was successful with a higher percentage than the MATLAB coder. So, the result come out with some handy errors handled manually. <br/>
 Finally, the interface of the python code with ROS done through embedding the code in the ROS packages based on the [ROS documentation and tutorials](http://wiki.ros.org/ROS/Tutorials) . 
 
