@@ -23,6 +23,6 @@ To overcome that i modified the selection criteria when it comes to searching a 
 The modified selection criteia then works as 
 
 > if that node is signed/flagged as free & it hasn't been visited before & node is in axial direction relative to the current one the algorithm can consider it then go to calculate its cost and proceed further.
-<br/>
+
 > if that node is signed/flagged as free & it hasn't been visited before & node is in diagonal direction relative to the current one & ***both axial neighbours to that diagonal node are free too*** the algorithm can consider it then go to calculate its cost and proceed further.
 
