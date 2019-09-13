@@ -15,7 +15,7 @@ My code depends on two main pieces of data which are the current location of the
 The code follows the standard known approach of the A-star algorithm **except its __selection criteria__ to the successor nodes.** <br/>
 The standard version selection criteria simply works as 
 
-> if that node ```is signed/flagged``` as free and it hasn't been visited before the algorithm can consider it then go to calculate its cost and proceed further.
+> if that node is signed/flagged as free and it hasn't been visited before the algorithm can consider it then go to calculate its cost and proceed further.
 
 The issue with comes when my robot starts to move diagonally !!! <br/>
 It gets stuck due its size __you can figure that in by watching the videos from the links__ <br/>
@@ -23,5 +23,5 @@ To overcome that i modified the selection criteria when it comes to searching a 
 The modified selection criteia then works as 
 
 > if that node is signed/flagged as free and it hasn't been visited before. 
-  > if that node is in axial direction relative to the current one the algorithm can consider it then go to calculate its cost and proceed further.
+  * if that node is in axial direction relative to the current one the algorithm can consider it then go to calculate its cost and proceed further.
 
