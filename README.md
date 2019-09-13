@@ -34,4 +34,7 @@ The code initially was the standard version of A* algorithm in MATLAB language [
 I used the MATLAB to test and develop the algorithm with interfacing it to ROS (robot operating system) on Ubuntu 16.04. <br/>
 Then i used MATLAB coder to transfer the MATLAB version of the algorithm into c++ code but it was failing in parts of the code. <br/>
 I used the [SMOP tool](https://github.com/victorlei/smop) (small matlab to octave or python tool) on Ubuntu 16.04 to transfer the MATLAB version of the algorithm into python code and it was successful with a higher percentage than the MATLAB coder. So, the result come out with some handy errors handled manually. <br/>
+The development principle illustarted above based on a research paper: [Modified A* algorithm for safer mobile robot navigation](https://www.researchgate.net/publication/258105430_Modified_A_algorithm_for_safer_mobile_robot_navigation)
+<br/>
+
 
