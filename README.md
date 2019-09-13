@@ -1,4 +1,4 @@
-# A Star algorithm on autonomous mobile robot <br/>
+# A Star algorithm on autonomous mobile robot <br/><br/>
 ## Intro. 
 That project is a part of my work in my Graduation project on a fully autonomous multi-agent robots. <br />
 Main objective from the project is implementing a formation algorithm on the whole robots & developing different algorithms to reach approach of making each robot of them fully autonomous.<br /> 
@@ -29,6 +29,6 @@ The modified selection criteia then works as
 <br/>
 
 ## Notes
-The code initially was the standard version of A* algorithm in MATLAB language (A* (A Star) search for path planning tutorial by Paul Premakumar)
+The code initially was the standard version of A* algorithm in MATLAB language [A* (A Star) search for path planning tutorial by Paul Premakumar] (https://www.mathworks.com/matlabcentral/fileexchange/26248-a-a-star-search-for-path-planning-tutorial)
 
 
