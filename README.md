@@ -23,3 +23,11 @@ The modified selection criteia then works as
 
 > if that node is signed/flagged as free and it hasn't been visited before 
 > if that node is in axial direction relative to the current one the algorithm can consider it then go to calculate its cost and proceed further.
+
+
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
