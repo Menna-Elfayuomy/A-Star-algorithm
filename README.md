@@ -29,9 +29,8 @@ The modified selection criteria then works as
 <br/>
 
 ## Procedure & References
-The code initially was the standard version of A* algorithm in MATLAB language [A* (A Star) search for path planning tutorial by Paul Premakumar](https://www.mathworks.com/matlabcentral/fileexchange/26248-a-a-star-search-for-path-planning-tutorial)
-<br/>
 I used the MATLAB to test and develop the algorithm with interfacing it to ROS (robot operating system) on Ubuntu 16.04.
+The code initially was the standard version of A* algorithm in MATLAB language [A* (A Star) search for path planning tutorial by Paul Premakumar](https://www.mathworks.com/matlabcentral/fileexchange/26248-a-a-star-search-for-path-planning-tutorial).
 MATLAB & ROS interface through [Robotics System Toolbox](https://www.mathworks.com/hardware-support/robot-operating-system.html)
 <br/>
 The development principle illustrated above based on a research paper: [Modified A* algorithm for safer mobile robot navigation](https://www.researchgate.net/publication/258105430_Modified_A_algorithm_for_safer_mobile_robot_navigation)
