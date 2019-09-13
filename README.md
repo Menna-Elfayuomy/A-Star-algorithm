@@ -40,3 +40,10 @@ The development principle illustrated above based on a research paper: [Modified
 Then i used **MATLAB Coder** to transfer the MATLAB version of the algorithm into c++ code but it was failing in parts of the code. <br/>
 I used the [SMOP tool](https://github.com/victorlei/smop) (small MATLAB to octave or python tool) on Ubuntu 16.04 to transfer the MATLAB version of the algorithm into python code and it was successful with a higher percentage than the MATLAB coder. So, the result come out with some handy errors handled manually. <br/>
 Finally, the interface of the python code with ROS done through embedding the code in the ROS packages based on the [ROS documentation and tutorials](http://wiki.ros.org/ROS/Tutorials) . 
+
+<br/>
+<br/>
+
+## Testing videos
+* [Planning algorithm Trails](https://www.youtube.com/playlist?list=PLI5xtxCxW-SdhwnbYTang0ZLDLOudYHI5)
+* [Formation algorithm including the Planning algorithm too Trails](https://www.youtube.com/watch?v=l2jWmuI5sps&feature=youtu.be)
