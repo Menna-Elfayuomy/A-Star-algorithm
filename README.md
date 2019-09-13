@@ -12,3 +12,5 @@ That algorithms used to make each of them fully autonomous are:<br/>
 ## Description of the A Star algorithm provided
 The A* (pronounced A-star) algorithm used in the autonomous systems to generate a free-from collision path for a robot starting from its current position to a desired goal point. <br/>  
 My code depends on two main pieces of data which are the current location of the robot relative to a global reference position and the robot environment representation (will be called the map). <br/>
+The code follows the standard known approach of the A-star algorithm **except its selection criteria to the successor nodes.** <br/>
+The standard version selection criteria simply works as 'if that node is signed/flagged as free and it hasn't been visited before the algorithm can consider it then go to calculate its cost and proceed further'
