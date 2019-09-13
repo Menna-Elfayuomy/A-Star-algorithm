@@ -27,7 +27,8 @@ The modified selection criteia then works as
 > if that node is signed/flagged as free & it hasn't been visited before & node is in diagonal direction relative to the current one & ***both axial neighbours to that diagonal node are free too*** the algorithm can consider it then go to calculate its cost and proceed further.
 
 <br/>
+
 ## Notes
 The code initially was the standard version of A* algorithm in MATLAB language (A* (A Star) search for path planning tutorial by Paul Premakumar)
-[]: http://www.reddit.com
+
 
