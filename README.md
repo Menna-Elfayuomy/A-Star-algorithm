@@ -31,14 +31,13 @@ The modified selection criteria then works as
 ## Procedure & References
 The code initially was the standard version of A* algorithm in MATLAB language [A* (A Star) search for path planning tutorial by Paul Premakumar](https://www.mathworks.com/matlabcentral/fileexchange/26248-a-a-star-search-for-path-planning-tutorial)
 <br/>
-I used the MATLAB to test and develop the algorithm with interfacing it to ROS (robot operating system) on Ubuntu 16.04. 
-<br/>
+I used the MATLAB to test and develop the algorithm with interfacing it to ROS (robot operating system) on Ubuntu 16.04.
 MATLAB & ROS interface through [Robotics System Toolbox](https://www.mathworks.com/hardware-support/robot-operating-system.html)
 <br/>
 The development principle illustrated above based on a research paper: [Modified A* algorithm for safer mobile robot navigation](https://www.researchgate.net/publication/258105430_Modified_A_algorithm_for_safer_mobile_robot_navigation)
 <br/>
 Then i used **MATLAB Coder** to transfer the MATLAB version of the algorithm into c++ code but it was failing in parts of the code. <br/>
-I used the [SMOP tool](https://github.com/victorlei/smop) (small MATLAB to octave or python tool) on Ubuntu 16.04 to transfer the MATLAB version of the algorithm into python code and it was successful with a higher percentage than the MATLAB coder. So, the result come out with some handy errors handled manually. <br/>
+I used the **[SMOP tool](https://github.com/victorlei/smop)** (small MATLAB to octave or python tool) on Ubuntu 16.04 to transfer the MATLAB version of the algorithm into python code and it was successful with a higher percentage than the MATLAB coder. So, the result come out with some handy errors handled manually. <br/>
 Finally, the interface of the python code with ROS done through embedding the code in the ROS packages based on the [ROS documentation and tutorials](http://wiki.ros.org/ROS/Tutorials) . 
 
 <br/>
