@@ -29,5 +29,5 @@ The modified selection criteia then works as
 <br/>
 ## Notes
 The code initially was the standard version of A* algorithm in MATLAB language (A* (A Star) search for path planning tutorial by Paul Premakumar)
-[link text itself]: http://www.reddit.com
+[]: http://www.reddit.com
 
